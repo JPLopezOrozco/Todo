@@ -1,72 +1,35 @@
 body{
   background: #EE9CA7 ;
   background: linear-gradient(90deg, #EE9CA7 0%, #feb0b9 43%, #FFDDE1 100%);
-}
-.nav{
-  display: flex;
-  justify-content: space-around;
-}
-.nav-item{
-  color: #000;
-  display: flex;
-  justify-content: space-around;
-}
-.nav-item:hover{
-  text-decoration:none;
-  color: #000;
+  font-family: 'montserrat';
 }
 
-h1, h2, h3, h4, h5, p, span, strike{
-  font-family: 'Montserrat', sans-serif;
+.container-task{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.title-page{
+.container-task h1{
   text-align: center;
-  margin-top: 10%;
 }
-#task-container{
-  max-width:600px;
-  margin:0 auto;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  background-color: #fff;
-  
-  margin-top:100px;
-  margin-bottom:100px;
-
-  justify-content: space-around;
-  align-items: flex-start;
-
+.tasks{
+  width: 30%;
 }
-
-#form-wrapper{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0rem;
-  border-bottom: 1px solid  #e9e9e9;
-  background-color: #fff;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
-  padding:40px;
-}
-
-#submit{
-  background-color: #EE9CA7 ;
-  border-radius: 0;
-  border:0;
-  color: #fff;
-}
-
-.flex-wrapper{
+.card-task{
   display: flex;
   justify-content: space-between;
 }
-
-.task-wrapper{
-    cursor: pointer;
-    border-bottom: 1px solid  #e9e9e9;
-    color: #686868;
-    margin:5px;
-    padding:20px;
+.card-task p{
+  margin: 0;
 }
-
-.task-wrapper:hover{
-    background-color: #F0F0F0;
+.container-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container-button button{
+  background-color: #FFDDE1;
+}
+.container-button button:hover{
+  background-color: #EE9CA7;
 }
