@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 4. Install Node.js dependencies for the frontend and build the React app:
 cd frontend
-npm install react
+npm install
 npm run build
 
 
